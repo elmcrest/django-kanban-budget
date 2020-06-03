@@ -1,0 +1,17 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Celery start",
+            "type": "shell",
+            "command": "/etc/init.d/celeryd start && /etc/init.d/celerybeat start"
+        },
+        {
+            "label": "Celery stop",
+            "type": "shell",
+            "command": "/etc/init.d/celeryd stop && /etc/init.d/celerybeat stop"
+        },
+    ]
+}

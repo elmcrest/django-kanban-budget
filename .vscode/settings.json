@@ -1,0 +1,16 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.pythonPath": "/usr/local/bin/python",
+    "python.linting.flake8Enabled": false,
+    "python.formatting.provider": "black",
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/geckodriver.log": true,
+        "**/media_root": true,
+        "**/paper.egg-info": true,
+        "**/static_root": true,
+        "**/celerybeat-schedule": true,
+    }
+}
